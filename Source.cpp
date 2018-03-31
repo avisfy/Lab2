@@ -2,6 +2,7 @@
 
 double leftRectangles(double a, double b, int n);
 double trapez(double a, double b, int n);
+double simpsons(double a, double b, int n);
 
 int main()
 {
@@ -22,6 +23,12 @@ int main()
 	integral = trapez(a, b, n1);
 	std::cout << "n = " << n1 << ", integral = " << integral << std::endl;
 	integral = trapez(a, b, n2);
+	std::cout << "n = " << n2 << ", integral = " << integral << std::endl << std::endl;
+
+	std::cout << "\tSimpsona\n";
+	integral = simpsons(a, b, n1);
+	std::cout << "n = " << n1 << ", integral = " << integral << std::endl;
+	integral = simpsons(a, b, n2);
 	std::cout << "n = " << n2 << ", integral = " << integral << std::endl << std::endl;
 
 	system("pause");
