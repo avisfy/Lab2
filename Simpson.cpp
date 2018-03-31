@@ -5,7 +5,7 @@ double f(double x);
 
 double simpsons(double a, double b, int n)
 {
-	double h = fabs(b - a) / n;  //шаг
+	double h = fabs(b - a) / n;  //С€Р°Рі
 	double sum = 0;
 	double sumNechet = 0;
 	double sumChet = 0;
