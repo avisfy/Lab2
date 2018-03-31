@@ -2,7 +2,7 @@
 
 double leftRectangles(double a, double b, int n)
 {
-	double h = fabs(b - a) / n;  //шаг
+	double h = fabs(b - a) / n;  //С€Р°Рі
 
 	double sumRects = 0;
 	double x = a;
