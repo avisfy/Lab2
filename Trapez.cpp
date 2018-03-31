@@ -5,7 +5,7 @@ double f(double x);
 
 double trapez(double a, double b, int n)
 {
-	double h = fabs(b - a) / n;  //шаг
+	double h = fabs(b - a) / n;  //С€Р°Рі
 	double sum = 0;
 	double x0 = a;
 	double xn = 0;
